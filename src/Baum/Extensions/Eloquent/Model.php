@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Baum\Extensions\Query\Builder as QueryBuilder;
 
-abstract class Model extends BaseModel {
+abstract class Model extends Base\Models\Eloquent {
 
   /**
    * Reloads the model from the database.

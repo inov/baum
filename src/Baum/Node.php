@@ -15,7 +15,7 @@ use Baum\Extensions\Eloquent\Model;
  * Nested sets are appropiate when you want either an ordered tree (menus,
  * commercial categories, etc.) or an efficient way of querying big trees.
  */
-abstract class Node extends Base\Models\Eloquent {
+abstract class Node extends Model {
 
   /**
    * Column name to store the reference to parent's node.
